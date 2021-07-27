@@ -1,0 +1,77 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #FFFFFF;
+	font-size: 10px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.style2 {
+	color: #000000;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style3 {
+	color: #304F81;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight:bold; text-transform:uppercase
+}
+.style4 {
+	color: #5b78a9;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.style5 {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.style6 {
+	color: #69696a;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style7 {
+	font-size: 11px;
+	font-family: tahoma;
+	color: #5a77a8;
+}
+.style8 {
+	color: #595a5a;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style9 {
+	color: #696969;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style10 {
+	color: #DB4009;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight:bold; text-transform:uppercase
+}
+.style11 {
+	color: #717171;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style12 {
+	color: #b1d4e7;
+	font-size: 8px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.style13 {
+	color: #5672a1;
+	font-size: 11px;
+	font-family: tahoma;
+}
