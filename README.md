@@ -30,33 +30,4 @@ To run the unit test suite via a real web browser, open `index.html` in the brow
 
 ### Example tests
 
-```javascript
-// Synchronous test
-QUnit.test('should describe the unit being tested', function (assert) {
-  assert.expect(1)
-  var templateHTML = '<div class="alert alert-danger fade in">'
-      + '<a class="close" href="#" data-dismiss="alert">×</a>'
-      + '<p><strong>Template necessary for the test.</p>'
-      + '</div>'
-  var $alert = $(templateHTML).appendTo('#qunit-fixture').bootstrapAlert()
-
-  $alert.find('.close').click()
-
-  // Make assertion
-  assert.strictEqual($alert.hasClass('in'), false, 'remove .in class on .close click')
-})
-
-// Asynchronous test
-QUnit.test('should describe the unit being tested', function (assert) {
-  assert.expect(1)
-  var done = assert.async()
-
-  $('<div title="tooltip title"></div>')
-    .appendTo('#qunit-fixture')
-    .on('shown.bs.tooltip', function () {
-      assert.ok(true, '"shown" event was fired after calling "show"')
-      done()
-    })
-    .bootstrapTooltip('show')
-})
-```
+#威师是我儿
